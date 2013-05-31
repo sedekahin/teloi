@@ -3,6 +3,9 @@ web1:
   php_upload_max_filesize: "8M"
   php_max_execution_time: 60
   php_max_input_time: 120
+  shared_writable_dirs:
+  - /var/www/simpan.php
+  - /var/www/submit.php
   
   php_extensions:
   - amqp
