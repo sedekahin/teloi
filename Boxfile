@@ -4,8 +4,8 @@ web1:
   php_max_execution_time: 60
   php_max_input_time: 120
   shared_writable_dirs:
-  - /var/www/simpan.php
-  - /var/www/submit.php
+  - simpan.php
+  - submit.php
   
   php_extensions:
   - amqp
